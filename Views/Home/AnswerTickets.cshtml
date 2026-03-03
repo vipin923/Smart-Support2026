@@ -1,0 +1,170 @@
+﻿@model IEnumerable<RaiseTickets>
+@{
+    ViewData["Title"] = "ViewTicket";
+}
+
+<div class="main-content-inner">
+	<div class="breadcrumbs ace-save-state" id="breadcrumbs">
+		<ul class="breadcrumb">
+			<li>
+				<i class="ace-icon fa fa-home home-icon"></i>
+				<a href="#">Home</a>
+			</li>
+			<li class="active">Answer Ticket</li>
+		</ul><!-- /.breadcrumb -->
+
+		<div class="nav-search" id="nav-search">
+			<form class="form-search">
+				<span class="input-icon">
+					<input type="text" placeholder="Search ..." class="nav-search-input" id="nav-search-input" autocomplete="off" />
+					<i class="ace-icon fa fa-search nav-search-icon"></i>
+				</span>
+			</form>
+		</div><!-- /.nav-search -->
+	</div>
+	
+		<div class="page-content">
+			<div class="page-header">
+				<h1>
+					View Tickets
+					<small>
+						<i class="ace-icon fa fa-angle-double-right"></i>
+						
+					</small>
+				</h1>
+			</div><!-- /.page-header -->
+@foreach (var tickets in Model)
+		{
+			<div class="row">
+				<div class="col-xs-12">
+					<!-- PAGE CONTENT BEGINS -->
+					<div  id="main-widget-container">
+						<div class="row">
+							<div class="col-xs-6 col-sm-6 widget-container-col" id="widget-container-col-1">
+								<div class="widget-box" id="widget-box-1">
+									<div class="widget-header">
+										<h5 class="widget-title">Employee Query  </h5>
+									</div>
+									<div class="widget-body">
+										<div class="widget-main">
+											<p> Type: @tickets.Type</p>
+											<p>Query: @Html.Raw(tickets.Query)</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-6">
+								<div class="widget-box">
+									<div class="widget-header">
+										<h4 class="widget-title lighter smaller">
+											<i class="ace-icon fa fa-comment blue"></i>
+											Take Help From AI
+										</h4>
+									</div>
+
+									<div class="widget-body">
+										<div class="widget-main no-padding">
+											<div id="resultContainer" class="body">
+												<partial name="_AIQuery" />
+												
+											</div>
+											<form id="AIQuery" asp-action="AIAgentQuery">
+												<div class="form-actions">
+													<div class="input-group">
+														
+														<input placeholder="Type your query here ..." type="text" class="form-control" name="description" />
+														<span class="input-group-btn">
+															<button class="btn btn-sm btn-info no-radius" type="submit">
+																<i class="ace-icon fa fa-share"></i>
+																Ask Ai
+															</button>
+														</span>
+													</div>
+												</div>
+											</form>
+											@section Scripts {
+										<script src="https://ajax.googleapis.com"></script>
+<script>
+	$("#AIQuery").submit(function (e) {
+		e.preventDefault(); // Stop full page reload
+		$.ajax({
+			url: '@Url.Action("AIAgentQuery", "Home")',
+			type: 'POST',
+			data: $(this).serialize(),
+			success: function (response) {
+				// Update only the div with the new HTML from the Partial View
+				$("#resultContainer").html(response);
+			}
+		});
+	});
+</script>
+											}
+												
+												
+										</div>
+									</div>
+								</div>
+							</div>
+							<form asp-action="AnswerQuery">
+								
+								
+									<input name="ticket_id" type="hidden" value="@tickets.Id" />
+									<input name="sendername" type="hidden" value="@tickets.Employee_Id" />
+									<div class="col-sm-12">
+										<h5>Answer Query</h5>
+										<textarea id="myEditor" asp-for="@tickets.Answer"></textarea>
+										<script src="~/lib/tinymce/tinymce.min.js"></script>
+										<script>
+											tinymce.init({
+											selector: '#myEditor',
+											license_key: 'gpl',
+											toolbar: 'undo redo | blocks | bold italic | alignleft aligncenter alignright | bullist numlist outdent indent | help',
+											height: 400
+											});
+										</script>
+									</div>
+									<br />
+									
+									<div class="col-sm-6">
+									<h5>Status</h5>
+										<div class="form-group">
+								<select class="form-control" asp-for="@tickets.Status" id="form-field-select-1">
+									<option value="">Select Status</option>
+									<option value="Complete">Complete</option>
+									<option value="Active">Active</option>
+									<option value="Pending">Pending</option>
+									</select>
+									</div>
+								</div>
+								
+
+									<div class="clearfix form-actions">
+										<div class="col-md-offset-3 col-md-9">
+											<button class="btn btn-info" type="submit">
+												<i class="ace-icon fa fa-check bigger-110"></i>
+												Submit
+											</button>
+
+											&nbsp; &nbsp; &nbsp;
+											<button class="btn" type="reset">
+												<i class="ace-icon fa fa-undo bigger-110"></i>
+												Reset
+											</button>
+										</div>
+									</div>
+								
+
+							</form>
+							
+						</div>
+					</div>
+				</div>
+
+			</div>
+		}
+	</div>
+		</div>
+		
+
+
+	

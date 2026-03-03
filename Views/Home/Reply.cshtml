@@ -1,0 +1,100 @@
+﻿@{
+	ViewData["Title"] = "Reply";
+}
+@model IEnumerable<ReplyModel>
+
+<div class="main-content-inner">
+	<div class="breadcrumbs ace-save-state" id="breadcrumbs">
+		<ul class="breadcrumb">
+			<li>
+				<i class="ace-icon fa fa-home home-icon"></i>
+				<a href="#">Home</a>
+			</li>
+			<li class="active">Reply</li>
+		</ul><!-- /.breadcrumb -->
+
+		<div class="nav-search" id="nav-search">
+			<form class="form-search">
+				<span class="input-icon">
+					<input type="text" placeholder="Search ..." class="nav-search-input" id="nav-search-input" autocomplete="off" />
+					<i class="ace-icon fa fa-search nav-search-icon"></i>
+				</span>
+			</form>
+		</div><!-- /.nav-search -->
+	</div>
+
+	<div class="page-content">
+		<div class="page-header">
+			<h1>
+				View Tickets
+				<small>
+					<i class="ace-icon fa fa-angle-double-right"></i>
+
+				</small>
+			</h1>
+		</div><!-- /.page-header -->
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="col-m-12">
+					<div class="widget-box">
+						<div class="widget-header">
+							<h4 class="widget-title lighter smaller">
+								<i class="ace-icon fa fa-comment blue"></i>
+								Reply
+							</h4>
+						</div>
+
+						<div class="widget-body">
+							<div class="widget-main no-padding">
+								@foreach (var reply in Model)
+{
+								<div class="itemdiv dialogdiv">
+								<div class="body">
+									
+									<div class="time">
+										<i class="ace-icon fa fa-clock-o"></i>
+										<span class="orange">@reply.Answer_Date</span>
+									</div>
+									<input type="hidden" name="replyid" value="@reply.Reply_By"/>
+													<div class="name">
+														<a href="#">@reply.Reply_By</a>
+														</div>
+										<div class="text">@Html.Raw(@reply.Reply)</div>
+									</div>
+								</div>
+}
+								<form asp-action="SaveReply">
+									<div class="form-actions">
+										<div class="input-group">
+											<input name="ticket_id" type="hidden" value="@TempData["ticket_id"]" />
+											<div class="col-xs-12">
+				<!-- PAGE CONTENT BEGINS -->
+				<h6>Reply</h6>
+				<textarea id="myEditor" name="message" ></textarea>
+				<script src="~/lib/tinymce/tinymce.min.js"></script>
+				<script>
+					tinymce.init({
+						selector: '#myEditor',
+					    license_key: 'gpl',
+						toolbar: 'undo redo | blocks | bold italic | alignleft aligncenter alignright | bullist numlist outdent indent | help',
+						height: 400
+					});
+				</script>
+				</div>
+
+												<button class="btn btn-sm btn-info no-radius" type="submit">
+													<i class="ace-icon fa fa-share"></i>
+													Send Reply
+												</button>
+										</div>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+				</div>
+				</div>
+				</div>
+				</div>
+				

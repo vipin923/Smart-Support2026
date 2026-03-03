@@ -1,0 +1,85 @@
+﻿<div class="main-content-inner">
+	<div class="breadcrumbs ace-save-state" id="breadcrumbs">
+		<ul class="breadcrumb">
+			<li>
+				<i class="ace-icon fa fa-home home-icon"></i>
+				<a href="#">Home</a>
+			</li>
+
+			
+		</ul><!-- /.breadcrumb -->
+
+		<div class="nav-search" id="nav-search">
+			<form class="form-search">
+				<span class="input-icon">
+					<input type="text" placeholder="Search ..." class="nav-search-input" id="nav-search-input" autocomplete="off" />
+					<i class="ace-icon fa fa-search nav-search-icon"></i>
+				</span>
+			</form>
+		</div><!-- /.nav-search -->
+	</div>
+
+	<div class="page-content">
+
+		<div class="row">
+			<div class="col-xs-12">
+				@if(TempData["Role"] == "Admin")
+				{
+
+
+
+				<div id="ticketslist" class="row">
+						<div class="col-sm-5">
+							<div class="widget-box transparent">
+								<div class="widget-header widget-header-flat">
+									<h4 class="widget-title lighter">
+										<i class="ace-icon fa fa-star orange"></i>
+										UnAnswer Tickets
+									</h4>
+
+									<div class="widget-toolbar">
+										<a href="#" data-action="collapse">
+											<i class="ace-icon fa fa-chevron-up"></i>
+										</a>
+									</div>
+								</div>
+					<partial name="_UnAnswerDisplay"/>
+					@section Scripts{
+					<script>
+
+					$(document).ready(function () {
+					  var containerId = "#ticketslist";
+							var targetUrl = '@Url.Action("GetUnAnswered", "Home")'; // Ensure "Data" is your Controller name
+
+					console.log("Looking for container: " + containerId);
+
+					if ($(containerId).length === 0) {
+					alert("Error: Element " + containerId + " not found in HTML!");
+					return;
+					}
+
+					console.log("Attempting to load URL: " + targetUrl);
+
+					$(containerId).load(targetUrl, function(response, status, xhr) {
+					if (status === "success") {
+					console.log("Load successful!");
+					} else {
+					console.error("Load failed! Error: " + xhr.status + " " + xhr.statusText);
+					$(containerId).html("<p style='color:red'>Error loading data: " + xhr.statusText + "</p>");
+					}
+					});
+					});
+					</script>
+					}
+					
+					
+				<!-- PAGE CONTENT BEGINS -->
+				<!-- PAGE CONTENT ENDS -->
+			</div>
+			</div>
+			</div>
+			
+			}<!-- /.col -->
+		</div><!-- /.row -->
+	</div><!-- /.page-content -->
+</div>

@@ -1,0 +1,475 @@
+Description,Category
+User's laptop won't turn on,Hardware
+Laptop screen flickering issue ,Software
+Wireless connection dropped multiple times a day,Network
+Password reset issues due to incorrect CAPS input,Account
+Printer ink level is empty and not sending print jobs,Hardware
+System freeze during Microsoft Office activation,Software
+RDP connection taking more than 5 minutes to establish,Network
+Account lockout after 5 failed login attempts with wrong password,Account
+Laptop's Wi-Fi adapter is not visible in device manager ,Hardware
+Error 404 when trying to access online resources from the company network,Network
+Incorrect data input causing errors in our CRM software,Software
+Account holder wants to change their email address and needs assistance,Account
+Power supply unit (PSU) malfunctioning on desktop computer,Hardware
+Laptop's keyboard backlight is not working,Hardware
+Failed login attempt resulting in security lockout for 30 minutes ,Account
+Router settings reset by mistake and now unable to connect to the internet,Network
+Error message '0x80070005' when trying to install a software update,Software
+Employee wants to add their personal device to our company's network ,Network
+Company email account login credentials not syncing between devices,Account
+Laptop's screen has a horizontal blur due to graphics card issue ,Hardware
+Domain controller is experiencing high latency and slow response times ,Network
+Printer not printing due to ink cartridge error,Hardware
+Laptop is slow and lagging,Software
+Wi-Fi connectivity issue in office network,Network
+No internet connection after recent router update,Network
+Employee's account not synced with Active Directory,Account
+Desktop computer screen is turning on by itself at night,Hardware
+Program cannot be installed due to corrupted registry files,Software
+Cable modem not working properly after power outage,Network
+User has forgotten password for their laptop account,Account
+Laptop battery life is decreasing rapidly,Hardware
+Software updates are failing due to outdated antivirus software,Software
+The network printer is offline when it's supposed to be online,Network
+Computer screen is flickering and turning off randomly,Hardware
+Employee's work computer won't turn on after recent power cycle,Hardware
+No sound output from laptop speakers,Hardware
+Employee has two-factor authentication issues with their company account,Account
+The network router's admin password is not being recognized by the device,Network
+Company laptop can't connect to public Wi-Fi networks due to VPN configuration,Network
+Laptop hard drive is making unusual noises and slowing down performance,Hardware
+Employee is unable to receive emails because of a problem with their email client software,Software
+Computer Won't Boot,Hardware
+The user's computer is not turning on and needs assistance with booting.,Hardware
+Dell Laptop Not Charging,Hardware
+The user's Dell laptop is not charging and we need to resolve the issue.,Hardware
+No Internet Connection,Network
+The user reports that they have no internet connection at their workspace.,Network
+Software Update Issues,Software
+The user is experiencing issues with software updates on their computer.,Software
+DNS Resolution Issue,Network
+The user is having trouble accessing a website due to DNS resolution issues.,Network
+Windows 10 Won't Turn Off,Software
+"The user's Windows 10 machine won't turn off and needs assistance.
+Wireless Keyboard Not Working""",Hardware
+"The user reports that their wireless keyboard is not working properly.
+Printer Offline""",Network
+The user reports that the printer on their network is offline.,Network
+Password Reset Requested,Account
+The user has forgotten their password and needs assistance resetting it.,Software
+Computer Overheating,Hardware
+"The user's computer is overheating and needs to be resolved.
+RDP Connection Issues""",Network
+The user reports issues with RDP connections on their remote machine.,Network
+Computer won't turn on after power surge,Hardware
+Slow internet connection after router replacement,Network
+Office 365 login issues with multiple failed attempts,Account
+Laptop screen is cracked and won't adjust brightness,Hardware
+Printer is jammed and not producing any printout,Hardware
+Software update for Adobe Creative Cloud failed due to missing dependencies,Software
+Wi-Fi password reset using wrong credentials,Network
+Desktop mouse stopped working after accidental drop on floor,Hardware
+Company intranet access restricted due to incorrect username/password combination,Account
+Laptop keyboard sticky keys issue causing input errors,Hardware
+Migrating Windows 10 to new virtual machine is encountering issues with disk imaging,Software
+Failed login attempt for employee account after password reset,Account
+Routers default admin password reset to a weak admin account,Network
+Unable to access company cloud storage due to authentication error,Account
+Windows Update failed because of corrupted registry key,Software
+Laptop screen too bright causing eye strain and discomfort while working,Hardware
+Disk full on desktop and need assistance in deleting files or upgrading hard drive capacity,Hardware
+Failed login attempt for administrator account after password reset,Account
+Unable to connect to VPN due to incorrect username/password combination,Network
+Printer's ink levels running low and need assistance in ordering replacement cartridges,Hardware
+Laptop battery draining rapidly,Hardware
+Wi-Fi connection drops frequently,Network
+Error message 'Windows Update' failed to install,Software
+Forgot password for employee account 12345,Account
+Keyboard backlight not working on desktop,Hardware
+Printer is offline and won't connect to network,Hardware
+Remote access issue with TeamViewer software,Software
+Network security alert from antivirus program,Network
+Employee's email inbox is full  unable to send new emails,Account
+Monitor flickering and displaying distorted images,Hardware
+Company VPN connection drops frequently no internet access,Network
+Error message 'SQL Server' not responding database unavailable,Software
+Firmware update failed on router unable to connect to the internet,Hardware
+Employee's company ID account has been locked due to password reset issue,Account
+Mice is not recognized by computer unable to use mouse functionality,Hardware
+Employee's Microsoft Office license is about to expire,Software
+Router's DNS server not responding unable to access websites,Network
+Laptop fan is very loud and not turning off when idle,Hardware
+Error message 'Adobe Acrobat' failed to update unable to open PDF files,Software
+Company's email server is down no email access for employees,Account
+User unable to connect to Wi-Fi after recent update,Network
+Printer not printing due to paper jam error,Hardware
+Employee account locked out due to incorrect password reset attempt,Account
+Laptop screen flickering and going black during use,Software
+Computer is taking too long to boot up,Hardware
+Wi-Fi connection dropping frequently,Network
+Ignoring updates on all devices due to concerns over security,Software
+Router not turning on after power outage,Hardware
+Failed login attempt from unknown device,Account
+Internet speed slow on home network,Network
+User unable to access shared folder due to permissions issue,Software
+Monitor display flickering and becoming unresponsive,Hardware
+Employee account locked out due to failed password reset,Account
+Device is freezing and crashing frequently during use,Software
+Email account not receiving emails due to DNS issues,Network
+Laptop's Wi-Fi adapter not working after installation,Hardware
+Security software not detecting malware updates,Software
+Internet connection dropping every 30 minutes,Network
+User unable to access company VPN due to authentication issue,Account
+Printer is printing blank pages and failing to print documents ,Hardware
+Employee account locked out due to failed login attempt with wrong credentials,Account
+Printer Offline,Hardware
+Mysterious error on Windows 10,Software
+Wi-Fi connection is extremely slow,Network
+Username reset failed,Account
+My iPhone won't connect to Wi-Fi,Network
+Error 404 on our website,Software
+Can't find the Admin account password,Account
+My computer is frozen since yesterday,Hardware
+New employee's laptop isn't detecting the company network,Network
+The antivirus software keeps popping up warnings,Software
+We can't access the shared drive from a remote location,Network
+My email account has been compromised,Account
+Printer won't print documents in color,Hardware
+My business phone is not working properly,Hardware
+System update fails on Windows 10 server,Software
+Our IT system crashed due to an unexpected error,Hardware
+The network router keeps restarting randomly,Network
+Some users can't log in with their new credentials,Account
+I lost my login credentials for the CRM software,Software
+My old laptop won't connect to our company Wi-Fi network,Network
+"Printer not detecting Wi-Fi connectionHardware
+Software update failed for Windows 10",Software
+"Router not connecting to internetNetwork
+Failed login attempt from unknown IP",Account
+"Computer screen flickering intermittentlyHardware
+Adobe Photoshop crashing on startup",Software
+"Wireless network password resetNetwork
+Password reset email not delivered",Account
+"Laptop screen not displaying correctlyHardware
+Malware detected by antivirus software",Software
+"Printer paper jammed with ink stuckHardware
+Network connection lost after power cycle",Network
+"User account created without proper permissionsAccount
+Outdated software version causing issues",Software
+"Dell laptop fan making unusual noiseHardware
+Internet connectivity lost due to DNS server issue",Network
+"Failed login attempt from work VPNAccount
+Screen saver not functioning correctly",Hardware
+"Microsoft Office 365 not syncing with emailSoftware
+Router lights not indicating optimal performance",Network
+User unable to connect to Wi-Fi on their laptop,Network
+Laptop screen is displaying a black screen,Hardware
+Employee's Microsoft Office installation is corrupted,Software
+Company email account password reset issues,Account
+Printer ink cartridge jammed not printing,Hardware
+IT support team access denied for one employee account,Account
+Cisco router configuration changes needed to update IP address,Network
+Laptop keyboard sticky keys issue,Hardware
+Employee's Windows 10 installation is slow to start,Software
+Wi-Fi signal strength issues in the office,Network
+Printer software not working properly unable to print documents,Software
+Company network security updates required for all devices,Network
+Employee's company laptop is not turning on after dropping it,Hardware
+Windows 10 operating system update failed during installation,Software
+IT support team access granted for new employee account,Account
+Laptop overheating issue causing shutdowns and slow performance,Hardware
+Cisco router firmware upgrade required to improve security,Network
+Employee's Microsoft Office add-ins not working as expected,Software
+Company email account forwarding issues emails not being sent properly,Account
+IT support team unable to connect to remote device for troubleshooting,Network
+Printer is not printing after installing new ink cartridges,Hardware
+Error message when opening Excel spreadsheet,Software
+My network connection is slow and unstable,Network
+I have forgotten my password for our company's email account,Account
+My laptop screen is cracked and I need a replacement screen,Hardware
+Our server's hard drive is failing and we need help replacing it,Hardware
+The software we use to manage customer relationships is no longer compatible with Windows 10,Software
+Wi-Fi connection keeps dropping on my desktop computer,Network
+I accidentally deleted all of my files from the company's shared drive,Account
+My printer driver is outdated and needs to be updated to print documents correctly,Hardware
+Our company's antivirus software is not detecting any threats,Software
+The network connection in our office is down and we need help getting it up and running,Network
+I am having trouble connecting my smartphone to the company Wi-Fi network,Account
+My desktop computer's RAM is low and I need an upgrade to improve performance,Hardware
+Our server's operating system needs to be updated to prevent security vulnerabilities,Software
+The company's IT department has not been notified of a potential threat to our network,Network
+I am having trouble with the password reset process for our employee accounts,Account
+My laptop's keyboard is not working properly and I need help troubleshooting,Hardware
+Error message when trying to install Adobe Creative Cloud software on my desktop computer,Software
+Our company's IT department needs help setting up a new VPN connection,Network
+The company's backup system is not functioning correctly and we need help resolving the issue,Account
+My desktop computer's hard drive is too slow and I need help upgrading or replacing it,Hardware
+Windows Update Issues,Software
+Mic is not working,Hardware
+Employee login fails,Account
+Printer not recognized,Hardware
+Outlook email client freezes on startup,Software
+Network connection drops frequently,Network
+No sound on laptop,Hardware
+Email account linked to Outlook,Account
+Browser crashes with Adobe Acrobat plugin,Software
+Laptop battery life is very short,Hardware
+Windows 10 updates are taking too long,Software
+Printer paper tray is jammed,Hardware
+Internet connection drops after 5 minutes of use,Network
+No cursor when using keyboard and mouse,Hardware
+Employee account access denied due to password reset,Account
+Bluetooth device is not recognized on laptop,Hardware
+Company network is experiencing connectivity issues,Network
+Windows Search function is not working properly,Software
+Laptop screen is displaying incorrect resolution,Hardware
+Printer not printing,Hardware
+Network connectivity issueNetwork,
+Laptop battery life too lowHardware,
+Software update failedSoftware,
+Email account not receiving emailsAccount,
+Router lights on but no internetNetwork,
+Mouse not working properlyHardware,
+Cable management issues in data centerHardware,
+Firewall blocking critical applicationNetwork,
+Desktop stuck on login screenHardware,
+Password reset failedAccount,
+Network connection dropping constantlyNetwork,
+Laptop's Wi-Fi is not connectingNetwork,
+Printer paper jamHardware,
+Software update is causing system instabilitySoftware,
+Email account password forgottenAccount,
+DNS resolution failingNetwork,
+Mouse cursor is jumping aroundHardware,
+Data backup failing due to disk space issueHardware,
+Firewall rules conflicting with applicationNetwork,
+Printer is not connecting to network,Hardware
+The computer's Wi-Fi connection is slow and unstable,Network
+Email account login credentials were reset accidentally by another user,Account
+My laptop's touchscreen display is cracked,Hardware
+I need assistance with installing the latest software update on my desktop,Software
+Our company's antivirus software is not detecting malware,Software
+The VPN connection is dropping frequently,Network
+The printer's ink cartridge is empty and needs to be replaced,Hardware
+Failed to login to our company's intranet website due to incorrect credentials,Account
+My external hard drive is not showing up in File Explorer,Hardware
+I need help setting up my new wireless router at home,Network
+Our IT department's phone system is experiencing constant disconnections,Network
+The password reset process is taking an excessively long time,Software
+Failed to install the latest operating system update on my computer due to compatibility issues,Software
+My laptop's keyboard backlight is not working properly,Hardware
+I need assistance with configuring my employee account for remote access,Account
+Our company's backup software is not functioning as expected,Software
+The firewall settings are blocking legitimate traffic to our external website,Network
+User's laptop is turning off unexpectedly while using the Windows operating system,Hardware
+My antivirus software is no longer detecting viruses and malware,Software
+Our Wi-Fi connection is dropping constantly at home,Network
+The 'Forgot Password' feature on our company intranet login page is not working,Account
+Laptop screen flickers when watching videos,Hardware
+I've installed the new software update for Microsoft Office but it won't install properly,Software
+Email account password reset process is taking too long,Account
+Our router's power light keeps turning off automatically,Network
+The printer on our office computer is not printing in color as expected,Hardware
+My Windows 10 operating system is running slow and freezing frequently,Software
+Our network connection dropped unexpectedly while working from home,Network
+The password reset tool for our company's database is malfunctioning,Account
+Keyboard backlight keeps turning off after a few minutes of use on my laptop,Hardware
+I've encountered an error message stating 'this process cannot be accessed',Software
+Our team's video conferencing software has stopped working correctly,Network
+User account 'user123' does not have permission to access certain folders in the company network,Account
+Windows Update Failing to Install,Software
+Laptop Screen Not Turning On after Water Damage,Hardware
+Network Connection Drops Every 10 Minutes,Network
+Password Reset Failed Due to Old Account,Account
+Dedicated Printer Not Recognized by Office 365,Software
+Computer Fans Making Loud Whining Noise,Hardware
+Email Account Not Syncing with Outlook,Software
+Wi-Fi Network Not Showing up on List of Available Networks,Network
+Failed to Update Windows 10 Operating System,Software
+Laptop Battery Life Extremely Short,Hardware
+Desktop Monitor Displaying Incorrect Colors,Software
+Cisco Router Not Sending Out Email Alerts,Network
+User Account Created with Incorrect Password,Account
+Dedicated Phone Line Not Connecting to Office Network,Network
+Wired Ethernet Connection Not Stable in High Traffic Areas,Network
+Laptop Motherboard Damage from Spill,Hardware
+Failed to Register New Domain Name,Software
+Password Manager Syncing Incorrect Data,Account
+Printer Queue Not Updating After Print Job Completion,Software
+User's laptop is running slow due to excessive malware and virus infections,Hardware
+Laptop keyboard is sticky and unresponsive,Hardware
+I need help with my company's network configuration for VPN access,Network
+Employee's Windows 10 computer won't connect to the company Wi-Fi network,Network
+The server's hard drive is almost full and needs to be cleaned up,Storage
+The IT team needs assistance in configuring a new user account on Active Directory,Account
+Employee's email account was hacked and all emails are being deleted,Email
+I'm having trouble with my Dell printer it won't print due to paper jam error,Hardware
+The network firewall is not allowing incoming traffic from the internet,Network
+The user's iPhone has a cracked screen and needs to be repaired or replaced,Hardware
+Employee's Windows 10 computer is showing blue screen of death (BSOD) errors,Software
+I need help in troubleshooting my company's email server issues,Email
+The IT team needs assistance with updating all employee computers to the latest version of Microsoft Office,Software
+The user's laptop is experiencing overheating issues due to dust buildup,Hardware
+The network Wi-Fi is not connecting to the internet due to IP address conflicts,Network
+Employee's Windows 10 computer won't update to the latest version of Windows,Software
+I need help with troubleshooting my company's server backup issues,Storage
+The IT team needs assistance in configuring a new user account on Office 365,Account
+Employee's iPhone has lost its Wi-Fi connectivity due to outdated software,Hardware
+The network router is not configured correctly and won't connect devices to the internet,Network
+Desktop issue with dual monitor setup,Hardware
+Password reset for user account,Account
+Internet connection drop every 30 minutes,Network
+Laptop won't turn on after recent software update,Software
+Printer not recognized by the network,Hardware
+Email account login issues due to CAPTCHA error,Software
+DNS settings incorrect causing network connectivity issues,Network
+Mistakenly deleted important file from shared drive,Account
+Failed attempt to install new operating system updates,Software
+Webcam not functioning properly after driver update,Hardware
+Slow network speeds on local area network,Network
+Lost password for user account management panel,Account
+Desktop background keeps resetting to default image,Hardware
+Error connecting to VPN due to IP address conflict,Network
+Misconfigured DNS settings preventing file access,Software
+Laptop's touchpad not responding after software update,Hardware
+Failed login attempt caused by incorrect CAPTCHA response,Account
+Internet connection speed slower than expected,Network
+File sharing permissions set incorrectly on shared drive,Account
+Printer drivers out of date causing print quality issues,Hardware
+Employee's laptop screen is cracked and unable to display properly,Hardware
+Company email account has been compromised requests assistance with recovery,Account
+Wireless internet connection dropped multiple times throughout the day seeking resolution,Network
+Failed attempt to install Microsoft Office 2021 on personal device looking for support,Software
+Server crashes every morning at 9am causing business disruption requiring immediate attention,Hardware
+Employee's desktop is no longer recognizing USB flash drives,Hardware
+Firewall blocking incoming and outgoing traffic unable to access company network,Network
+Lost remote work password please assist with reset procedure,Account
+Application error on server-side request assistance for troubleshooting and resolution,Software
+Dropped internet connection during meeting please resolve asap,Network
+Company phone line is not receiving calls possible hardware issue or configuration problem,Hardware
+Failed to activate Antivirus software on desktops looking for support with activation,Software
+Unable to connect to company VPN request assistance with troubleshooting,Network
+Employee's computer is beeping incessantly and unable to function properly,Hardware
+Server is running low on disk space please assist with file cleanup or data recovery procedures,Storage
+Failed attempt to access shared drive due to authentication issues seeking support,Account
+Company email server has been down for 4 hours request assistance with restoring functionality,Network
+Desktop screen is stuck at the login screen unable to access any applications,Hardware
+Cisco VoIP system not functioning correctly request immediate attention for resolution,Hardware
+Failed installation of new software seeking support with error removal and reinstallation procedure,Software
+Printer won't print on both sides,Hardware
+Windows update failed to install,Software
+The internet is slow today,Network
+My account was locked out by the system,Account
+Laptop screen flickers when playing video, Hardware
+Password reset not working properly,Account
+The network connection keeps dropping,Network
+I'm having trouble connecting to our VPN,Network
+My software license expired last week," ""Software"""
+The router is making a strange noise," ""Hardware"""
+I'm experiencing issues with my mobile device's GPS,Hardware
+The printer is jammed and won't print," ""Hardware"""
+Microsoft Office is not updating properly," ""Software"""
+Account login credentials no longer valid after change,Account
+My desktop wallpaper keeps changing on its own," ""Software"""
+Network connection speed reduced to 1 MB/s,Network
+I'm having trouble connecting to Wi-Fi,Network
+The firewall is blocking all incoming connections,Network
+Password reset didn't send me the new password via email," ""Account"""
+The antivirus software won't install properly," ""Software"""
+User unable to connect to Wi-Fi due to expired password,Network
+ Printer not printing documents due to paper jam,Hardware
+Unable to access company email due to corrupted Outlook installation,Software
+Firewall blocking internet connection need help configuring ports,Network
+Employee's laptop screen is cracked and needs repair,Hardware
+Company network down unable to access any devices,Network
+User can't log in to their account due to invalid username/password combination,Account
+New employee's computer not detected by Active Directory,Account
+Mysterious error message on desktop screen need help with virus scan,Software
+Internet connection is slow and buffering constantly ,Network
+Printer paper tray empty unable to print documents,Hardware
+Can't connect to company VPN due to missing SSL certificate,Network
+New software installation failed due to compatibility issues,Software
+Laptop overheating causing system shutdowns,Hardware
+User's account locked out due to too many login attempts,Account
+Network device not recognized by network management tool,Network
+Employee's computer screen is frozen and won't reboot ,Software
+Company phone line not working unable to receive or make calls ,Network
+New employee needs help with setting up their company laptop,Account
+Printer is offline and won't print any documents,Hardware
+Software update failed due to missing dependencies,Software
+Network connection lost when switching between work and home Wi-Fi networks,Network
+Cannot log in to company intranet with credentials,Account
+Monitor brightness control not working properly,Hardware
+Email account not sending emails after recent software update,Software
+No internet connection on mobile device,Network
+Account password reset button not found on employee portal,Account
+Laptop keyboard backlight not functioning,Hardware
+The new software installation is causing system crashes ,Software
+Firewall is blocking remote access to VPN server,Network
+Employee account credentials being flagged as invalid when logging into company resources,Account
+Monitor screen resolution not changing with keyboard shortcuts,Hardware
+Unable to scan documents using network-connected printer,Hardware
+The new employee onboarding process is causing issues with system access ,Software
+No sound output from laptop speakers,Hardware
+The recent software update has disabled the ability to print in color ,Software
+Employee's company email address is being rejected by external sender SMTP server ,Network
+The employee's account credentials are not being recognized when trying to log into company resources ,Account
+Printer ink cartridges need replacement before continued operation ,Hardware
+Cannot access company files due to missing permission settings ,Software
+Printer is not printing documents,Hardware
+My computer is running slow and freezing frequently,Software
+I'm having trouble connecting to the company Wi-Fi,Network
+Password reset failed due to incorrect security questions,Account
+My laptop keyboard is sticky and keys won't register properly,Hardware
+The company Windows Server is crashing randomly,Software
+Our network router isn't sending emails properly,Network
+Username 'admin' is still active even after deletion from Active Directory,Account
+My employee has a work computer but can't access it remotely using RDP,Network
+I'm trying to install new software on my laptop but getting an error 2147744809 ,Software
+Our antivirus software isn't running as scheduled,Software
+The company's VPN connection is dropping frequently,Network
+Employee 'John Doe' doesn't have permissions for a shared folder even though added to group,Account
+My mobile device can't connect to our Wi-Fi network at the office,Network
+I'm getting an error 80070005 when trying to install software on my desktop,Software
+Our company email account is having issues syncing with Outlook,Account
+The server is not responding to requests for new user accounts,Hardware
+Employee 'Jane Doe' can't access their employee folder due to incorrect password ,Account
+My laptop's network adapter isn't showing up in Device Manager,Hardware
+The company firewall is blocking certain websites from loading properly,Network
+Printer Not Printing on Windows 10,Hardware
+Error Installing Adobe Acrobat,Software
+Laptop Battery Life is Extremely Short,Account
+Router Reset Button Unresponsive,Network
+MetroLink Printer Driver Outdated,Software
+Theater Screen Does Not Display Image Correctly,Hardware
+My Microsoft Account Is Frozen,Account
+Wi-Fi Connection Drops Frequently When Streaming Games,Network
+The Company Laptop Has Been Tampered With,Hardware
+Adobe Photoshop Keeps Crashing On My Mac,Software
+Company Credit Card Payment System Is Down,Account
+MetroLink Wi-Fi Network Keeps Disconnecting,Network
+My Account Password Was Compromised Due To Phishing Scam,Account
+Windows 10 Update Installation Failed,Software
+Theater Headphones Keep Disconnecting From Soundbar,Hardware
+I Need Help With My Windows 7 Firewall Settings,Account
+Purple Screen of Death Appears On My Desktop,Hardware
+Dell Printer Driver Not Recognized By Operating System,Hardware
+Network Connection Drops When Using Virtual Private Network (VPN),Network
+"Printer is not printing the ink cartridges are emptyCategories:Hardware
+Laptop screen is flickering intermittently",SSoftware
+"My Wi-Fi connection is dropping frequentlyNetwork
+Password reset failed due to weak password",Account
+"The network share 'Shared Drive' is not accessibleNetwork
+I need help with the new employee onboarding process",Account
+"IT system crashes every morningSSoftware
+There's a issue with my email account sending emails",Software
+"Printer jams are common please fix itHardware
+My laptop screen is too bright",Acount
+"The company VPN connection keeps droppingNetwork
+I can't access my company files over the network",Network
+"The printer driver needs to be updatedHardware
+I'm having issues with Microsoft Office updates",Software
+"My computer is running slow and freezes frequentlyHardware
+Wi-Fi signal strength varies between floors",Network
+My laptop needs a BIOS updateHardware,Hardware

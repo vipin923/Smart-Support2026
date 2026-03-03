@@ -1,0 +1,74 @@
+﻿@model IEnumerable<RaiseTickets>
+@{
+	ViewData["Title"] = "AskAI";
+}
+
+<div class="main-content-inner">
+	<div class="breadcrumbs ace-save-state" id="breadcrumbs">
+		<ul class="breadcrumb">
+			<li>
+				<i class="ace-icon fa fa-home home-icon"></i>
+				<a href="#">Home</a>
+			</li>
+			<li class="active">Answer Ticket</li>
+		</ul><!-- /.breadcrumb -->
+
+		<div class="nav-search" id="nav-search">
+			<form class="form-search">
+				<span class="input-icon">
+					<input type="text" placeholder="Search ..." class="nav-search-input" id="nav-search-input" autocomplete="off" />
+					<i class="ace-icon fa fa-search nav-search-icon"></i>
+				</span>
+			</form>
+		</div><!-- /.nav-search -->
+	</div>
+
+	<div class="page-content">
+		<div class="page-header">
+			<div class="row">
+				<div class="col-xs-12">
+					<div class="col-sm-8">
+						<div class="widget-box">
+							<div class="widget-header">
+								<h4 class="widget-title lighter smaller">
+									<i class="ace-icon fa fa-comment blue"></i>
+									Take Help From AI
+								</h4>
+							</div>
+
+							<div class="widget-body">
+								<div class="widget-main no-padding">
+									<div  class="body">
+										<p>Solution: @ViewData["Solution"]</p>
+
+
+									</div>
+									<form asp-action="AskQuery">
+										<div class="form-actions">
+											<div class="input-group">
+
+												<input placeholder="Type your query here ..." type="text" class="form-control" name="description" />
+												<span class="input-group-btn">
+													<button class="btn btn-sm btn-info no-radius" type="submit">
+														<i class="ace-icon fa fa-share"></i>
+														Ask Ai
+													</button>
+												</span>
+											</div>
+										</div>
+									</form>
+									
+
+
+								</div>
+							</div>
+						</div>
+					</div>
+					</div>
+
+			<!-- /.page-header -->
+		</div>
+			</div>
+			</div>
+			
+		</div>
